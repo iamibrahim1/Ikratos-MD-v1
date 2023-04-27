@@ -8,7 +8,7 @@ await conn.sendFile(m.chat, url3, 'error.mp4', `*${json.data.title}*`', m)
 } catch (err5) {
 console.log('5 ' + err5)    
 handler.help = ['xvidoesdl'].map(v => v + ' <link>')
-handler.tags = ['internet']
+handler.tags = ['downloader']
 
 handler.command = /^(xvidoesdl)$/i
 
